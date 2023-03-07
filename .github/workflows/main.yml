@@ -23,8 +23,8 @@ on:
     - ./**
     
 env:
-  APPLICATION_ECR_PREFIX:  webapp
-  ECR_REPOSITORY: ecr
+  APPLICATION_ECR_PREFIX: guestbook
+  ECR_REPOSITORY: app
   WORKING_DIR: ./
   AWS_REGION: us-east-1
   
